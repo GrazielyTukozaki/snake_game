@@ -12,6 +12,13 @@
 <body>
     <h1>Snake Game</h1>
     <p>Pontos: <span id="marcaPonto">0</span>   |  Para pausar o jogo aperte a tecla "espaço"</p>
+    <div id="pop_up">
+        <p>Jogo Pausado</p>
+    </div>
+    <div id="gameOver">
+        <p>Game Over</p>
+        <button onclick="reiniciar()">Jogar Novamente</button>
+    </div>
     <canvas id="snake" width="500" height="500">
 
     </canvas>

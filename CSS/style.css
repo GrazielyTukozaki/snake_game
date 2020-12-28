@@ -14,3 +14,22 @@ p {
     color: #e4f2f7;
     font-size: 20px;
 }
+
+#pop_up {
+ 
+    text-align: center;
+    position: fixed;
+    width: 100px;
+    z-index: 1;
+    background-color: rgb(15, 91, 161);
+}
+
+#gameOver {
+ 
+    text-align: center;
+    position: fixed;
+    width: 200px;
+    height: 100Px;
+    z-index: -1;
+    background-color: rgb(15, 91, 161);
+}
